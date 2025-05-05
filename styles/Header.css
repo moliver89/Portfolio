@@ -1,0 +1,7 @@
+.barraHeader {
+  height: 5vh;
+  background-color: rgb(128, 10, 10);
+}
+h1 {
+  text-shadow: 0 2px 4px white;
+}

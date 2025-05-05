@@ -1,0 +1,17 @@
+a {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 40%;
+}
+
+h3 {
+  margin-top: 0;
+}

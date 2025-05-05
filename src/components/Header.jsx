@@ -1,4 +1,10 @@
+import '../../styles/Header.css';
+
 const Header = () => {
-  return <h1>Portfolio</h1>;
+  return (
+    <main className='barraHeader'>
+      <h1>Mauro Oliver - FullStack Developer</h1>
+    </main>
+  );
 };
 export default Header;
