@@ -11,8 +11,12 @@
   gap: 1rem;
   margin: 1rem;
 }
-.barraNavegadora > a {
-  padding: 0rem;
+.barraNavegadora > a:hover {
+  color: white;
+  text-shadow: 0 1px 2px black;
+}
+.barraNavegadora > a:visited {
+  text-decoration: none;
 }
 .banner {
   display: flex;

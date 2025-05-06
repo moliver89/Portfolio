@@ -1,6 +1,11 @@
 a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
 
 .project-card {
@@ -13,6 +18,7 @@ a {
   width: 40%;
   flex-grow: 1;
   gap: 2rem;
+  transition: 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .project-card > img {
@@ -22,6 +28,11 @@ a {
   border: 2px solid black;
   object-fit: cover;
   /* box-shadow: 0 8px 16px black; */
+}
+
+.project-card:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .project-description {
