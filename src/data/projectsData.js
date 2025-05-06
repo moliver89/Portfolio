@@ -4,11 +4,13 @@ export const projects = [
     description:
       'Aplicacion web mediante la que puedes visualizar rutinas de gimnasio ya prestablecidas asi como editarlas, subir una guardada en tus archivos o bien crear una nueva',
     link: 'https://theworkout-app.netlify.app/',
+    image: '/myworkoutapp-preview.png',
   },
   {
     title: 'Proyecto Final de Bootcamp: Innovaspace',
     description:
       'Portal donde publicar espacios de coworking, reservar y gestionar cada espacio.',
     link: 'https://github.com/moliver89/Coworking',
+    image: '/innovaspace main.png',
   },
 ];

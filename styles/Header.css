@@ -1,7 +1,38 @@
-.barraHeader {
-  height: 5vh;
-  background-color: rgb(128, 10, 10);
-}
-h1 {
+.titulo > h1 {
   text-shadow: 0 2px 4px white;
+  margin: 1rem;
+}
+.titulo > h3 {
+  margin: 1rem;
+}
+.barraNavegadora {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.barraNavegadora > a {
+  padding: 0rem;
+}
+.banner {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.img-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px rgb(233 224 120 / 72%);
+  object-fit: cover;
+  box-shadow: 0 8px 16px black;
+}
+
+.titulo {
+  flex-grow: 1;
+  margin: 1rem;
+}
+.barraHeader {
+  height: 30vh;
+  padding-top: 0;
 }
