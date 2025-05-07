@@ -2,10 +2,12 @@ a {
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: inherit;
 }
 
 a:visited {
   color: inherit;
+  text-decoration: none;
 }
 
 .project-card {
@@ -36,5 +38,33 @@ a:visited {
 }
 
 .project-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: left;
+}
+
+.badges {
+  display: flex;
+  gap: 2px;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-card > img {
+    flex-grow: 1;
+  }
+  .badges {
+    flex-direction: column;
+    align-items: center;
+  }
+  .badges > img {
+    flex-grow: 0;
+    max-width: 120px;
+    height: auto;
+  }
 }

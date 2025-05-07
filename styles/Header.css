@@ -18,6 +18,9 @@
 .barraNavegadora > a:visited {
   text-decoration: none;
 }
+.barraNavegadora > a:active {
+  color: black;
+}
 .banner {
   display: flex;
   justify-content: flex-start;
@@ -37,6 +40,18 @@
   margin: 1rem;
 }
 .barraHeader {
-  height: 30vh;
+  height: 30%;
   padding-top: 0;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-perfil {
+    flex-shrink: 0;
+  }
 }
