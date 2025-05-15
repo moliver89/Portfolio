@@ -23,7 +23,9 @@
 }
 .banner {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .img-perfil {
@@ -33,10 +35,14 @@
   border: 1px rgb(233 224 120 / 72%);
   object-fit: cover;
   box-shadow: 0 8px 16px black;
+  aspect-ratio: 1 / 1;
 }
 
 .titulo {
   flex-grow: 1;
+  margin: 1rem;
+}
+.titulo > p {
   margin: 1rem;
 }
 .barraHeader {

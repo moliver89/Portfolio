@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
 // Importamos estilos
 import '../index.css';
+import Experiencia from './pages/Experiencia';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFoundPage />} />
+        <Route path='experiencia' element={<Experiencia />} />
       </Routes>
       <Footer />
     </>

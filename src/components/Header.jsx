@@ -5,7 +5,7 @@ const Header = () => {
     <main className='barraHeader'>
       <div className='barraNavegadora'>
         <a href='/'>Mis Proyectos</a>
-        <a>Experiencia</a>
+        <a href='/experiencia'>Experiencia</a>
         <a>About me</a>
       </div>
       <div className='banner'>
@@ -17,6 +17,15 @@ const Header = () => {
         <div className='titulo'>
           <h1>Mauro Oliver</h1>
           <h3>FullStack Developer</h3>
+          <p>
+            Desarrollador web Fullstack recientemente certificado. Poseo amplia
+            experiencia en trato de personas tanto en trabajo en equipo como
+            atención a clientes, listo para volcar estas habilidades en favor
+            del equipo. Idioma ingles fluido gracias al estudio en colegio
+            bilingüe y el uso constante en mis trabajos. Considerado un
+            “fast-lerner”, estoy siempre predispuesto a ampliar mis
+            conocimientos y crecer profesionalmente.
+          </p>
         </div>
       </div>
     </main>
