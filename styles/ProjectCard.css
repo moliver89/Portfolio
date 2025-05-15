@@ -12,7 +12,7 @@ a:visited {
 
 .project-card {
   display: flex;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   padding: 1rem;
   border-radius: 10px;
   margin: 1rem 0;
@@ -21,6 +21,7 @@ a:visited {
   flex-grow: 1;
   gap: 2rem;
   transition: 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .project-card > img {
@@ -29,7 +30,7 @@ a:visited {
   border-radius: 10px;
   border: 2px solid black;
   object-fit: cover;
-  /* box-shadow: 0 8px 16px black; */
+  box-shadow: 0 8px 16px black;
 }
 
 .project-card:hover {
