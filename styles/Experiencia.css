@@ -1,3 +1,28 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .jobDescription {
-  padding: 2rem;
+  display: flex;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 10rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.jobTitle {
+  width: 300px;
+}
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+  .jobDescription {
+    margin: 1rem 0;
+    flex-direction: row;
+  }
 }

@@ -4,9 +4,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import NotFoundPage from './pages/NotFoundPage';
+import Experiencia from './pages/Experiencia';
 // Importamos estilos
 import '../index.css';
-import Experiencia from './pages/Experiencia';
 
 const App = () => {
   return (
