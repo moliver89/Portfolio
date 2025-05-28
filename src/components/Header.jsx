@@ -7,25 +7,25 @@ const Header = () => {
         <a href='/'>Mis Proyectos</a>
         <a href='/experiencia'>Experiencia</a>
         <a>About me</a>
-        <div className='flags'>
-          <button>
-            <img
-              src='https://flagcdn.com/es.svg'
-              width='30'
-              height={16}
-              alt='Spain'
-            />
-          </button>
-          <button>
-            <img
-              src='https://flagcdn.com/gb.svg'
-              width='30'
-              height={16}
-              alt='United Kingdom'
-            />
-          </button>
-        </div>
       </nav>
+      <div className='flags'>
+        <button title='Español'>
+          <img
+            src='https://flagcdn.com/es.svg'
+            width='30'
+            height={16}
+            alt='Spain'
+          />
+        </button>
+        <button title='English'>
+          <img
+            src='https://flagcdn.com/gb.svg'
+            width='30'
+            height={16}
+            alt='United Kingdom'
+          />
+        </button>
+      </div>
       <div className='banner'>
         <img
           className='img-perfil'
