@@ -3,11 +3,29 @@ import '../../styles/Header.css';
 const Header = () => {
   return (
     <main className='barraHeader'>
-      <div className='barraNavegadora'>
+      <nav className='barraNavegadora'>
         <a href='/'>Mis Proyectos</a>
         <a href='/experiencia'>Experiencia</a>
         <a>About me</a>
-      </div>
+        <div className='flags'>
+          <button>
+            <img
+              src='https://flagcdn.com/es.svg'
+              width='30'
+              height={16}
+              alt='Spain'
+            />
+          </button>
+          <button>
+            <img
+              src='https://flagcdn.com/gb.svg'
+              width='30'
+              height={16}
+              alt='United Kingdom'
+            />
+          </button>
+        </div>
+      </nav>
       <div className='banner'>
         <img
           className='img-perfil'
