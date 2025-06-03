@@ -88,4 +88,8 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .flags {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -7,6 +7,7 @@ import NotFoundPage from './pages/NotFoundPage';
 import Experiencia from './pages/Experiencia';
 // Importamos estilos
 import '../index.css';
+import AboutMe from './pages/AboutMe';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFoundPage />} />
         <Route path='experiencia' element={<Experiencia />} />
+        <Route path='aboutme' element={<AboutMe />} />
       </Routes>
       <Footer />
     </>

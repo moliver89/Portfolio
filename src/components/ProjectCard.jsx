@@ -3,7 +3,7 @@ import '../../styles/ProjectCard.css';
 import { LanguageContext } from '../contexts/LanguageContext';
 
 const ProjectCard = ({ title, description, link, image, state, stack }) => {
-  const language = useContext(LanguageContext);
+  const { language } = useContext(LanguageContext);
   return (
     <a href={link}>
       <div className='project-card'>

@@ -13,15 +13,15 @@ const Header = () => {
           <>
             <a href='/'>Mis Proyectos</a>
             <a href='/experiencia'>Experiencia</a>
+            <a href='/aboutme'>Sobre mi</a>
           </>
         ) : (
           <>
             <a href='/'>My Projects</a>
             <a href='/experiencia'>Experience</a>
+            <a href='/aboutme'>About me</a>
           </>
         )}
-
-        <a>About me</a>
       </nav>
       <div className='flags'>
         <button title='Español' onClick={() => setLanguage('Español')}>
