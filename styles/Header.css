@@ -67,6 +67,18 @@
   padding: 0;
   border: none;
   cursor: pointer;
+  border: 4px solid black;
+  border-radius: 5px;
+}
+.flags > button:hover {
+  border-color: white;
+}
+.flags > button.selected {
+  border: 4px solid rgb(0, 0, 156);
+  border-radius: 5px;
+}
+.flags > button > img {
+  display: block;
 }
 
 /* Diseño responsive */

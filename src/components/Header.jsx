@@ -24,19 +24,27 @@ const Header = () => {
         )}
       </nav>
       <div className='flags'>
-        <button title='Español' onClick={() => setLanguage('Español')}>
+        <button
+          title='Español'
+          className={language === 'Español' ? 'selected' : ''}
+          onClick={() => setLanguage('Español')}
+        >
           <img
             src='https://flagcdn.com/es.svg'
             width='30'
-            height={16}
+            height={15}
             alt='Spain'
           />
         </button>
-        <button title='English' onClick={() => setLanguage('English')}>
+        <button
+          title='English'
+          className={language === 'English' ? 'selected' : ''}
+          onClick={() => setLanguage('English')}
+        >
           <img
             src='https://flagcdn.com/gb.svg'
             width='30'
-            height={16}
+            height={15}
             alt='United Kingdom'
           />
         </button>
