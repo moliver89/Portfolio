@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import '../../styles/Header.css';
 import { LanguageContext } from '../contexts/LanguageContext';
+import toast from 'react-hot-toast';
 
 const Header = () => {
   const { language, setLanguage } = useContext(LanguageContext);
@@ -27,7 +28,10 @@ const Header = () => {
         <button
           title='Español'
           className={language === 'Español' ? 'selected' : ''}
-          onClick={() => setLanguage('Español')}
+          onClick={() => {
+            setLanguage('Español');
+            toast.success('Idioma: Español');
+          }}
         >
           <img
             src='https://flagcdn.com/es.svg'
@@ -39,7 +43,10 @@ const Header = () => {
         <button
           title='English'
           className={language === 'English' ? 'selected' : ''}
-          onClick={() => setLanguage('English')}
+          onClick={() => {
+            setLanguage('English');
+            toast.success('Language: English');
+          }}
         >
           <img
             src='https://flagcdn.com/gb.svg'

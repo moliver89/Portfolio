@@ -50,4 +50,16 @@ export const projectsEng = [
       'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
     ],
   },
+  {
+    title: 'Lista de Tareas',
+    description:
+      'Project of a daily task list. Done by that moment to put TypeScript skills on practice. Finished.',
+    link: 'listatareas-ts-react.netlify.app',
+    image: '/listatareas.png',
+    state: 'Finished. It could be improved.',
+    stack: [
+      'https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465',
+      'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+    ],
+  },
 ];
