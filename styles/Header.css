@@ -39,6 +39,30 @@
   aspect-ratio: 1 / 1;
   margin-left: 6%;
 }
+/* Redes sociales y CV */
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 0.73rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
+.social-links path {
+  transition: fill 0.3s ease;
+  fill: oklch(19.37% 0.006 300.98);
+}
+.social-links a:hover svg path {
+  fill: oklch(70.9% 0.015 304.04);
+}
+.social-links .carta {
+  fill: none;
+  stroke: oklch(19.37% 0.006 300.98);
+}
+.social-links a:hover .carta {
+  fill: none;
+  stroke: oklch(70.9% 0.015 304.04);
+}
+/* ----------------- */
 
 .titulo {
   flex-grow: 1;
