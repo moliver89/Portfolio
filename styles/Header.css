@@ -41,11 +41,16 @@
 }
 /* Redes sociales y CV */
 .social-links {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.73rem;
   margin-top: 1.5rem;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 40px;
+  /* border: 1px solid black; */
+  width: auto;
+  max-width: fit-content;
 }
 .social-links path {
   transition: fill 0.3s ease;

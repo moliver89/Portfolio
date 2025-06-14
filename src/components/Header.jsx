@@ -56,6 +56,7 @@ const Header = () => {
           />
         </button>
       </div>
+      {/* Contiene todo el Header menos la barra navegadora */}
       <div className='banner'>
         <img
           className='img-perfil'
