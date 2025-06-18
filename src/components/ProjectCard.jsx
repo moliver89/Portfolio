@@ -5,7 +5,10 @@ import { LanguageContext } from '../contexts/LanguageContext';
 const ProjectCard = ({ title, description, link, image, state, stack }) => {
   const { language } = useContext(LanguageContext);
   return (
-    <a href={link}>
+    <a
+      href={link}
+      aria-label='Navegar al proyecto. Esto es pagina web o repositorio. Navigate to the project. Web site or repository.'
+    >
       <div className='project-card'>
         <img src={image} alt='Preview' />
         <div className='project-description'>
@@ -23,8 +26,8 @@ const ProjectCard = ({ title, description, link, image, state, stack }) => {
             ) : (
               <p>Used stack: </p>
             )}
-            {stack.map((badgeUrl, index) => (
-              <img key={index} src={badgeUrl} alt={`stack badge ${index}`} />
+            {stack.map(({ name, badge }, index) => (
+              <img key={index} src={badge} alt={`stack badge ${name}`} />
             ))}
           </div>
         </div>

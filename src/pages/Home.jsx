@@ -9,7 +9,7 @@ const Home = () => {
   const { language } = useContext(LanguageContext);
   const projects = language === 'Español' ? projectsEs : projectsEng;
   return (
-    <main>
+    <main id='projects'>
       {language === 'Español' ? <h2>Mis Proyectos</h2> : <h2>My Projects</h2>}
       {projects.map((project, index) => (
         <ProjectCard key={index} {...project} />

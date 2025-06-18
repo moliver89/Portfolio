@@ -7,8 +7,16 @@ export const projectsEng = [
     image: '/myworkoutapp-preview.png',
     state: 'Under maintenance.',
     stack: [
-      'https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465',
-      'https://camo.githubusercontent.com/fa5be43dba8c79ff20be3296cd185fdce664d326a62548d8bfaccf20ab9495cd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e67756c61722d4444303033313f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465',
+      {
+        name: 'TypeScript',
+        badge:
+          'https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465',
+      },
+      {
+        name: 'Angular',
+        badge:
+          'https://camo.githubusercontent.com/fa5be43dba8c79ff20be3296cd185fdce664d326a62548d8bfaccf20ab9495cd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e67756c61722d4444303033313f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465',
+      },
     ],
   },
   {
@@ -19,9 +27,21 @@ export const projectsEng = [
     image: '/innovaspace main.png',
     state: 'Finished.',
     stack: [
-      'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
-      'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
-      'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      {
+        name: 'React',
+        badge:
+          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      },
+      {
+        name: 'Node.js',
+        badge:
+          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
+      },
+      {
+        name: 'Javascrypt',
+        badge:
+          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      },
     ],
   },
   {
@@ -32,9 +52,21 @@ export const projectsEng = [
     image: '/Movie Quiz Preview.png',
     state: 'Finished.',
     stack: [
-      'https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white',
-      'https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white',
-      'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      {
+        name: 'HTML5',
+        badge:
+          'https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white',
+      },
+      {
+        name: 'CSS3',
+        badge:
+          'https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white',
+      },
+      {
+        name: 'Javascrypt',
+        badge:
+          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      },
     ],
   },
   {
@@ -45,9 +77,21 @@ export const projectsEng = [
     image: '/LeagueStaticsPreview.png',
     state: 'Developing.',
     stack: [
-      'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
-      'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
-      'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      {
+        name: 'React',
+        badge:
+          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      },
+      {
+        name: 'Node.js',
+        badge:
+          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
+      },
+      {
+        name: 'Javascrypt',
+        badge:
+          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      },
     ],
   },
   {
@@ -58,8 +102,16 @@ export const projectsEng = [
     image: '/listatareas.png',
     state: 'Finished. It could be improved.',
     stack: [
-      'https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465',
-      'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      {
+        name: 'TypeScript',
+        badge:
+          'https://camo.githubusercontent.com/8e77945348567678f7ac7879dfb294400492ed429d16392c98db21a7c00934d2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547970655363726970742d3030374143433f7374796c653d666f722d7468652d6261646765266c6f676f3d74797065736372697074266c6f676f436f6c6f723d7768697465',
+      },
+      {
+        name: 'React',
+        badge:
+          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      },
     ],
   },
 ];

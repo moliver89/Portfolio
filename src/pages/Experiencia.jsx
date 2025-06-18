@@ -7,7 +7,7 @@ import { LanguageContext } from '../contexts/LanguageContext';
 const Experiencia = () => {
   const { language } = useContext(LanguageContext);
   return (
-    <main>
+    <main id='experience'>
       {language === 'Español' ? (
         <>
           <h2>Experiencia laboral</h2>

@@ -6,7 +6,7 @@ import '../../styles/AboutMe.css';
 const AboutMe = () => {
   const { language } = useContext(LanguageContext);
   return (
-    <main className='aboutMePage'>
+    <main className='aboutMePage' id='aboutMe'>
       {language === 'Español' ? (
         <>
           <h2>Sobre mi</h2>

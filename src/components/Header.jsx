@@ -12,15 +12,27 @@ const Header = () => {
       <nav className='barraNavegadora'>
         {language === 'Español' ? (
           <>
-            <a href='/'>Mis Proyectos</a>
-            <a href='/experiencia'>Experiencia</a>
-            <a href='/aboutme'>Sobre mi</a>
+            <a href='/#projects' aria-label='Mis proyectos'>
+              Mis Proyectos
+            </a>
+            <a href='/experiencia#experience' aria-label='Experiencia'>
+              Experiencia
+            </a>
+            <a href='/aboutme#aboutMe' aria-label='Sobre mi'>
+              Sobre mi
+            </a>
           </>
         ) : (
           <>
-            <a href='/'>My Projects</a>
-            <a href='/experiencia'>Experience</a>
-            <a href='/aboutme'>About me</a>
+            <a href='/#projects' aria-label='My projects'>
+              My Projects
+            </a>
+            <a href='/experiencia#experience' aria-label='Experience'>
+              Experience
+            </a>
+            <a href='/aboutme#aboutMe' aria-label='About me'>
+              About me
+            </a>
           </>
         )}
       </nav>
@@ -32,6 +44,7 @@ const Header = () => {
             setLanguage('Español');
             toast.success('Idioma: Español');
           }}
+          aria-label='Boton de idioma español'
         >
           <img
             src='https://flagcdn.com/es.svg'
@@ -47,6 +60,7 @@ const Header = () => {
             setLanguage('English');
             toast.success('Language: English');
           }}
+          aria-label='English language button'
         >
           <img
             src='https://flagcdn.com/gb.svg'
@@ -65,7 +79,10 @@ const Header = () => {
         />
         <div className='social-links'>
           {/* Enlace a LinkedIn */}
-          <a href='https://www.linkedin.com/in/moliverg/' aria-label='LinkedIn'>
+          <a
+            href='https://www.linkedin.com/in/moliverg/'
+            aria-label='Ir a perfil de Mauro en LinkedIn'
+          >
             <svg
               xmlns='http://www.w3.org/2000/svg'
               x='0px'
@@ -80,7 +97,7 @@ const Header = () => {
           {/* Enlace a GitHub */}
           <a
             href='https://github.com/moliver89'
-            aria-label='Github'
+            aria-label='Ir a perfil de Mauro en Github'
             target='_blank'
             rel='noopener'
           >
