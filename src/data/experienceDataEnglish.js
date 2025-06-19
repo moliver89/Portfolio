@@ -4,33 +4,34 @@ export const experienceEng = [
     company: 'Innovaspace: Bootcamp Final Project',
     time: 'Oct 2024 - Nov 2024',
     description:
-      'Web Project for the publishing and renting of coworking spaces. Teamwork applying agile methodologies such as SCRUM. First Sprint Scrum Master(Backend). HTML, CSS, JS, Node.JS, React',
+      '💻 I developed a full-featured web platform for publishing and booking coworking spaces.\n 🤝 Teamwork applying agile methodologies such as SCRUM.\n 🧩 I served as First Sprint Scrum Master(Backend).\n 🛠️ Tech stack: HTML, CSS, JS, Node.JS, React',
   },
   {
     job: 'Salesman',
     company: 'Lord del Formatge',
     time: 'Oct 2021 - present',
-    description: 'Salesman at Selected Cheese Store(Initiative, languages).',
+    description:
+      '👔 Salesman at Selected Cheese Store.\n 🗣️ I provided customer service and product guidance.\n 🌍 Utilized language skills to serve international clients effectively.\n 🔍 (Initiative, languages).',
   },
   {
     job: 'Public relations',
     company: 'Plur Eventos',
     time: 'Jun 2021 - Oct 2021',
     description:
-      'Multilanguage salesman for turistic events (Initiative, languages).',
+      '🎉 Promoted and sold touristic events to diverse audiences.\n 🌐 Communicated fluently in multiple languages to attract international customers.\n 💡 Developed persuasive communication and interpersonal skills.\n 🔍 (Initiative, languages).',
   },
   {
     job: 'Store Manager',
     company: 'Send+ Accesorios celulares',
     time: 'Oct 2015 - Apr 2021',
     description:
-      "Selling and customer service. Cashier and managing with 2 peopleunder my supervison at the biggest store of this city's movile phonesfranchise.(Teamwork, leadership, proactivity).",
+      "🛍️ Led daily operations and sales at the franchise's largest branch.\n 👥 Managed a small team, ensuring effective workflows and client satisfaction.\n 💰 Handled cash register operations and stock control.\n 🥇 Best franchise salesman for 2 years in a row(from over 30 employees).\n 🔍 (Teamwork, leadership, proactivity).",
   },
   {
     job: 'Store Manager',
     company: 'Librería La Casa del Docente',
     time: 'Feb 2006 - Oct 2015',
     description:
-      'Cashier, customer care and administration at family store(school supplies store).(Initiative, leadership).',
+      '📚 Oversaw customer service and sales at family store(school supplies store).\n 🧾 Managed supplier relationships and merchandise acquisition.\n 🚀 Took initiative in administration, inventory, and store improvements.\n🔍 (Initiative, leadership).',
   },
 ];

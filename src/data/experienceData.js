@@ -4,34 +4,34 @@ export const experience = [
     company: 'Innovaspace: Proyecto Final de Bootcamp',
     time: 'Oct 2024 - Nov 2024',
     description:
-      'Proyecto web para la publicación y el alquiler de espacios coworking. Trabajo en equipo utilizando metodologías ágiles(SCRUM).\n Facilitador del primer Sprint(Backend).\n HTML, CSS, JS, Node.JS, React',
+      '🧠 Proyecto web para publicación y reserva de espacios de coworking.\n 👥 Trabajo en equipo con metodologías ágiles (SCRUM).\n 🧩 Facilitador del primer Sprint (Backend).\n 🛠️ Tecnologías: HTML, CSS, JavaScript, Node.js, React.',
   },
   {
     job: 'Vendedor',
     company: 'Lord del Formatge',
-    time: 'Oct 2021 - actualidad',
+    time: 'Oct 2021 - Actualidad',
     description:
-      'Vendedor en tienda de quesos seleccionados(Iniciativa, idiomas).',
+      '👔 Atención al público en tienda especializada en quesos gourmet.\n 🌍 Uso de idiomas para interactuar con clientes internacionales.\n 🤝 Proactividad en la presentación de productos y llevando adelante las tareas de la empresa.\n 🔍 (Iniciativa, idiomas).',
   },
   {
     job: 'Relaciones publicas',
     company: 'Plur Eventos',
     time: 'Jun 2021 - Oct 2021',
     description:
-      'Vendedor multilenguaje para eventos turisticos(Iniciativa, idiomas).',
+      '🎟️ Captación de clientes para eventos turísticos.\n 🌐 Comunicación efectiva en múltiples idiomas.\n 💡 Alta iniciativa y habilidades sociales.\n 🔍 (Iniciativa, idiomas).',
   },
   {
     job: 'Encargado de tienda',
     company: 'Send+ Accesorios celulares',
     time: 'Oct 2015 - Abr 2021',
     description:
-      'Vendedor a comisión con manejo de caja. Encargado de tienda con 2 personas a cargo en cadena de tiendas de telefonía(Teamwork, liderazgo, iniciativa).',
+      '👨‍🔧 Encargado de tienda con 2 personas a cargo en cadena de tiendas de telefonía.\n 📦 Responsable de caja, stock y atención al cliente.\n 🥇 Mayor vendedor de la franquicia(sobre mas de 30 personas) durante 2 años consecutivos.\n 🔍 (Teamwork, liderazgo, iniciativa).',
   },
   {
     job: 'Encargado de tienda',
     company: 'Librería La Casa del Docente',
     time: 'Feb 2006 - Oct 2015',
     description:
-      'Atencion al público y cajero. Encargado de tienda con trato a proveedores, compra de mercadería y administración(Iniciativa, liderazgo).',
+      '📝 Gestión de tienda: atención al público, caja, trato con proveedores y compras.\n 👔 Fuerte enfoque en liderazgo, iniciativa y organización.\n 🔍 (Iniciativa, liderazgo).',
   },
 ];

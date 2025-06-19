@@ -129,8 +129,11 @@
     margin-left: 0;
     margin-right: 0;
   }
+}
+@media (max-width: 500px) {
   .flags {
     display: flex;
     flex-direction: column;
+    right: 0.5rem;
   }
 }
