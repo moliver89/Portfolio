@@ -2,7 +2,7 @@ export const experience = [
   {
     job: 'Desarrollador FullStack',
     company: 'Innovaspace: Proyecto Final de Bootcamp',
-    time: 'Oct 2024 - Nov 2024',
+    time: 'Sep 2024 - Nov 2024',
     description:
       '🧠 Proyecto web para publicación y reserva de espacios de coworking.\n 👥 Trabajo en equipo con metodologías ágiles (SCRUM).\n 🧩 Facilitador del primer Sprint (Backend).\n 🛠️ Tecnologías: HTML, CSS, JavaScript, Node.js, React.',
   },
