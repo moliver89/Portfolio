@@ -167,7 +167,7 @@ const Header = () => {
             </p>
           ) : (
             <p>
-              Certified Junior Fullstack Web Developer. I have strongexperience
+              Certified Junior Fullstack Web Developer. I have strong experience
               in interpersonal skills, both in team collaboration and customer
               service, and I am ready to apply them for the benefit of the team.
               I am fluent in English, thanks to my bilingual education and

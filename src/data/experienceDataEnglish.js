@@ -4,7 +4,7 @@ export const experienceEng = [
     company: 'Innovaspace: Bootcamp Final Project',
     time: 'Oct 2024 - Nov 2024',
     description:
-      '💻 I developed a full-featured web platform for publishing and booking coworking spaces.\n 🤝 Teamwork applying agile methodologies such as SCRUM.\n 🧩 I served as First Sprint Scrum Master(Backend).\n 🛠️ Tech stack: HTML, CSS, JS, Node.JS, React',
+      '💻 I developed a full-featured web platform for publishing and booking coworking spaces.\n 🤝 Teamwork applying Agile methodologies such as SCRUM.\n 🧩 I served as First Sprint Scrum Master(Backend).\n 🛠️ Tech stack: HTML, CSS, JS, Node.JS, React',
   },
   {
     job: 'Salesman',

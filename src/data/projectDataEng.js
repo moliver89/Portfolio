@@ -2,7 +2,7 @@ export const projectsEng = [
   {
     title: 'My WorkOut App',
     description:
-      'Web app where you can visualize already made gym workouts and make your self one aswell. You can also upload a previously saved one from your files.',
+      'Web app where you can visualize already made gym workouts and make your self one as well. You can also upload a previously saved one from your files.',
     link: 'https://theworkout-app.netlify.app/',
     image: '/myworkoutapp-preview.png',
     state: 'Under maintenance.',
