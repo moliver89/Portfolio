@@ -27,6 +27,7 @@ Diseñado con foco en la usabilidad, internacionalización y navegación fluida,
 
 ## 📂 Estructura del proyecto (resumida)
 
+```
 src/
 │
 ├── components/
@@ -35,6 +36,7 @@ src/
 ├── pages/ # AboutMe, Experiencia, Proyectos, Contacto
 ├── styles/ # Archivos CSS por sección
 └── App.jsx
+```
 
 ## 🌍 Ver el portfolio
 
@@ -79,6 +81,7 @@ Designed with a strong focus on usability, internationalization, and smooth navi
 
 ## 📂 Project Structure (brief)
 
+```
 src/
 │
 ├── components/
@@ -87,6 +90,7 @@ src/
 ├── pages/ # AboutMe, Experience, Projects, Contact
 ├── styles/ # CSS files by section
 └── App.jsx
+```
 
 ## 🌍 View the Portfolio
 
