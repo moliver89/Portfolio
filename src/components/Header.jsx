@@ -2,37 +2,37 @@ import { useContext } from 'react';
 import '../../styles/Header.css';
 import { LanguageContext } from '../contexts/LanguageContext';
 import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const { language, setLanguage } = useContext(LanguageContext);
-  console.log(language);
 
   return (
     <main className='barraHeader'>
       <nav className='barraNavegadora'>
         {language === 'Español' ? (
           <>
-            <a href='/#projects' aria-label='Mis proyectos'>
+            <Link to='/#proyectos' aria-label='Mis Proyectos'>
               Mis Proyectos
-            </a>
-            <a href='/experiencia#experience' aria-label='Experiencia'>
+            </Link>
+            <Link to='/experiencia#experiencia' aria-label='Experiencia'>
               Experiencia
-            </a>
-            <a href='/aboutme#aboutMe' aria-label='Sobre mi'>
+            </Link>
+            <Link to='/aboutme#sobreMi' aria-label='Sobre mi'>
               Sobre mi
-            </a>
+            </Link>
           </>
         ) : (
           <>
-            <a href='/#projects' aria-label='My projects'>
+            <Link to='/#projects' aria-label='My projects'>
               My Projects
-            </a>
-            <a href='/experiencia#experience' aria-label='Experience'>
+            </Link>
+            <Link to='/experiencia#experience' aria-label='Experience'>
               Experience
-            </a>
-            <a href='/aboutme#aboutMe' aria-label='About me'>
+            </Link>
+            <Link to='/aboutme#aboutMe' aria-label='About me'>
               About me
-            </a>
+            </Link>
           </>
         )}
       </nav>
@@ -134,8 +134,8 @@ const Header = () => {
           <a
             href={
               language === 'Español'
-                ? '/Mauro Oliver CV jun 25.pdf'
-                : 'Mauro Oliver CV English jun 25.pdf'
+                ? '/Mauro Oliver CV Jul 25.pdf'
+                : 'Mauro Oliver CV Eng Jul 25.pdf'
             }
             download
             aria-label='Descargar CV'

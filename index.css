@@ -11,9 +11,11 @@ html {
 }
 body {
   background-color: rgba(34, 34, 30, 0.72);
+  min-height: 100vh;
   /* background-image: url('flat-lay-desk-concept-wooden-table.jpg');
   background-image: url('flat-lay-work-space-with-notebook-keyboard.jpg'); */
-  background-image: url('/public/top-view-copy-space-with-devices.jpg');
+  background: url('/public/top-view-copy-space-with-devices.jpg') no-repeat
+    center center fixed;
   background-size: cover;
 }
 

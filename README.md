@@ -46,7 +46,7 @@ src/
 
 - LinkedIn: [linkedin.com/in/moliverg](https://linkedin.com/in/moliverg)
 - Email: olivermauro@outlook.com
-- CV en Español: `/public/Mauro Oliver CV jun 25.pdf`
+- CV en Español: `/public/Mauro Oliver CV Jul 25.pdf`
 
 ## 📝 Licencia
 
@@ -100,7 +100,7 @@ src/
 
 - LinkedIn: [linkedin.com/in/moliverg](https://linkedin.com/in/moliverg)
 - Email: olivermauro@outlook.com
-- CV in English: `public/Mauro Oliver CV English jun 25.pdf`
+- CV in English: `public/Mauro Oliver CV Eng Jul 25.pdf`
 
 ## 📝 License
 
