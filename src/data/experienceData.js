@@ -1,5 +1,12 @@
 export const experience = [
   {
+    job: 'Desarrollador de Software',
+    company: 'Polytech Systems SL',
+    time: 'Sep 2025 - Actualidad',
+    description:
+      '🔧 Mantenimiento, refactorización y optimización del sitio web corporativo.\n 📊 Mejora del rendimiento, posicionamiento SEO y experiencia del usuario en este(UX/UI) con el objetivo de captar mas clientes para nuevos proyectos.\n 💻 Desarrollo nuevas herramientas para la gestión empresarial utilizando tecnologías del ecosistema JavaScript.\n 🛠️ Tecnologías: JavaScript, Node.js, React, WordPress, Rank Math SEO, Google Analytics',
+  },
+  {
     job: 'Desarrollador FullStack',
     company: 'Innovaspace: Proyecto Final de Bootcamp',
     time: 'Sep 2024 - Nov 2024',
@@ -9,7 +16,7 @@ export const experience = [
   {
     job: 'Vendedor',
     company: 'Lord del Formatge',
-    time: 'Oct 2021 - Actualidad',
+    time: 'Oct 2021 - Ago 2025',
     description:
       '👔 Atención al público en tienda especializada en quesos gourmet.\n 🌍 Uso de idiomas para interactuar con clientes internacionales.\n 🤝 Proactividad en la presentación de productos y llevando adelante las tareas de la empresa.\n 🔍 (Iniciativa, idiomas).',
   },

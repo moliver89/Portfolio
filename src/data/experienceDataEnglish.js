@@ -1,4 +1,11 @@
 export const experienceEng = [
+    {
+    job: 'Software Developer',
+    company: 'Polytech Systems SL',
+    time: 'Sep 2025 - present',
+    description:
+      '🔧 Maintenance, refactoring, and optimization of the corporate website.\n 📊 Performance, SEO visibility, and UX/UI improvement focused on customer acquisition.\n 💻 I develop new tools for business management such as inventory control systems using JavaScript technologies.\n 🛠️ Tech stack: JavaScript, Node.js, React, WordPress, Rank Math SEO, Google Analytics',
+  },
   {
     job: 'FullStack Developer',
     company: 'Innovaspace: Bootcamp Final Project',
@@ -9,7 +16,7 @@ export const experienceEng = [
   {
     job: 'Salesman',
     company: 'Lord del Formatge',
-    time: 'Oct 2021 - present',
+    time: 'Oct 2021 - Aug 2025',
     description:
       '👔 Salesman at Selected Cheese Store.\n 🗣️ I provided customer service and product guidance.\n 🌍 Utilized language skills to serve international clients effectively.\n 🔍 (Initiative, languages).',
   },
