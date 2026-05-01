@@ -1,8 +1,32 @@
 export const projectsEng = [
-    {
-    title: 'The Exchange App',
+  {
+    title: 'Bootcamp Final Project: Innovaspace',
     description:
-      `Currency exchange app supporting over 200 currencies via an external API query. You can save your most frequent queries for a faster consultation. UX/UI improvement coming next.`,
+      'Website where you can publish coworking spaces and administrate them, or book one as a customer. Fully deployed by myself in 2026.',
+    link: 'https://innovaspace.netlify.app',
+    image: '/innovaspace main.png',
+    state: 'Finished.',
+    stack: [
+      {
+        name: 'React',
+        badge:
+          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      },
+      {
+        name: 'Node.js',
+        badge:
+          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
+      },
+      {
+        name: 'Javascrypt',
+        badge:
+          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      },
+    ],
+  },
+  {
+    title: 'The Exchange App',
+    description: `Currency exchange app supporting over 200 currencies via an external API query. You can save your most frequent queries for a faster consultation. UX/UI improvement coming next.`,
     link: 'https://the-exchange-app.netlify.app/',
     image: '/theexchangeapp-preview.png',
     state: 'Under maintenance.',
@@ -36,31 +60,6 @@ export const projectsEng = [
         name: 'Angular',
         badge:
           'https://camo.githubusercontent.com/4c26d977719f5503b94b4a3ed4b0555752bb1c9f7c5aae95377cc4a7fd1758c1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e67756c61722d4444303033313f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465',
-      },
-    ],
-  },
-  {
-    title: 'Bootcamp Final Project: Innovaspace',
-    description:
-      'Website where you can publish coworking spaces and administrate them, or book one as a customer.',
-    link: 'https://github.com/moliver89/Coworking',
-    image: '/innovaspace main.png',
-    state: 'Finished.',
-    stack: [
-      {
-        name: 'React',
-        badge:
-          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
-      },
-      {
-        name: 'Node.js',
-        badge:
-          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
-      },
-      {
-        name: 'Javascrypt',
-        badge:
-          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
       },
     ],
   },

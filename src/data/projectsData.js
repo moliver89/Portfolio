@@ -1,5 +1,30 @@
 export const projects = [
-    {
+  {
+    title: 'Innovaspace Coworking',
+    description:
+      'Portal para la publicación, gestión y reserva de espacios de coworking. Despliegue en producción de manera individual en 2026.',
+    link: 'https://innovaspace.netlify.app',
+    image: '/innovaspace main.png',
+    state: 'Finalizado.',
+    stack: [
+      {
+        name: 'React',
+        badge:
+          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
+      },
+      {
+        name: 'Node.js',
+        badge:
+          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
+      },
+      {
+        name: 'Javascrypt',
+        badge:
+          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
+      },
+    ],
+  },
+  {
     title: 'The Exchange App',
     description:
       'Aplicación web para consultar el valor de cambio entre mas de 200 divisas mediante el llamado a una API. Se pueden guardar las transacciones frecuentes como favoritas para un acceso mas rápido. Próxima mejora UX/UI.',
@@ -36,31 +61,6 @@ export const projects = [
         name: 'Angular',
         badge:
           'https://camo.githubusercontent.com/4c26d977719f5503b94b4a3ed4b0555752bb1c9f7c5aae95377cc4a7fd1758c1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416e67756c61722d4444303033313f7374796c653d666f722d7468652d6261646765266c6f676f3d616e67756c6172266c6f676f436f6c6f723d7768697465',
-      },
-    ],
-  },
-  {
-    title: 'Proyecto Final de Bootcamp: Innovaspace',
-    description:
-      'Portal donde publicar espacios de coworking, reservar y gestionar cada espacio.',
-    link: 'https://github.com/moliver89/Coworking',
-    image: '/innovaspace main.png',
-    state: 'Finalizado.',
-    stack: [
-      {
-        name: 'React',
-        badge:
-          'https://img.shields.io/badge/reactjs-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black',
-      },
-      {
-        name: 'Node.js',
-        badge:
-          'https://img.shields.io/badge/node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white',
-      },
-      {
-        name: 'Javascrypt',
-        badge:
-          'https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E',
       },
     ],
   },
@@ -118,7 +118,7 @@ export const projects = [
     title: 'Lista de Tareas',
     description:
       'Proyecto para realizar una lista de tareas. Realizado en su momento para la practica de TypeScript. Finalizado.',
-    link: 'listatareas-ts-react.netlify.app',
+    link: 'https://listatareas-ts-react.netlify.app',
     image: '/listatareas.png',
     state: 'Finalizado. Mejorable',
     stack: [

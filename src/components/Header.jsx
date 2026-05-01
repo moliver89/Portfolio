@@ -134,8 +134,8 @@ const Header = () => {
           <a
             href={
               language === 'Español'
-                ? '/Mauro Oliver CV Esp.pdf'
-                : 'Mauro Oliver CV Eng.pdf'
+                ? '/Mauro Oliver CV Dev Esp.pdf'
+                : 'Mauro Oliver CV Dev Eng.pdf'
             }
             download
             aria-label='Descargar CV'
@@ -158,23 +158,25 @@ const Header = () => {
           {language === 'Español' ? (
             <p>
               Desarrollador web Fullstack certificado. Actualmente trabajando en
-              el desarrollo de software y, en el mantenimiento y refactorización web en 
-              Polytech Systems. Poseo amplia experiencia en trato de personas 
-              tanto en trabajo en equipo como atención a clientes, listo para
-              volcar estas habilidades en favor del equipo. Idioma ingles fluido
-              gracias al estudio en colegio bilingüe y el uso constante en mis trabajos.
-              Considerado un “fast-lerner”, estoy siempre predispuesto a ampliar mis
-              conocimientos y crecer profesionalmente.
+              el desarrollo de software y, en el mantenimiento y refactorización
+              web en Polytech Systems. Poseo amplia experiencia en trato de
+              personas tanto en trabajo en equipo como atención a clientes,
+              listo para volcar estas habilidades en favor del equipo. Idioma
+              ingles fluido gracias al estudio en colegio bilingüe y el uso
+              constante en mis trabajos. Considerado un “fast-lerner”, estoy
+              siempre predispuesto a ampliar mis conocimientos y crecer
+              profesionalmente.
             </p>
           ) : (
             <p>
-              Certified Junior Fullstack Web Developer. Today working in Software
-              Development and, web maintenance and optimization at Polytech Systems.
-              I have strong experience in interpersonal skills, both in team 
-              collaboration and customer service, and I am ready to apply them 
-              for the benefit of the team. I am fluent in English, thanks to my bilingual
-              education and consistent use in various jobs. I consider myself a fast learner,
-              always looking forward for personal and professional growth.
+              Certified Junior Fullstack Web Developer. Today working in
+              Software Development and, web maintenance and optimization at
+              Polytech Systems. I have strong experience in interpersonal
+              skills, both in team collaboration and customer service, and I am
+              ready to apply them for the benefit of the team. I am fluent in
+              English, thanks to my bilingual education and consistent use in
+              various jobs. I consider myself a fast learner, always looking
+              forward for personal and professional growth.
             </p>
           )}
         </div>
