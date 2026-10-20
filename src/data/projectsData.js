@@ -25,6 +25,21 @@ export const projects = [
     ],
   },
   {
+    title: 'Polytech Systems Web',
+    description:
+      'Sitio web corporativo desarrollado con WordPress y Avada, con formularios de contacto, portfolio de proyectos y blog. Optimización SEO técnica y mejoras de UX/UI para mejorar la experiencia de usuario y la visibilidad orgánica.',
+    link: 'https://polytechsystems.es',
+    image: '/Despues Home.png',
+    state: 'Finalizado. En constante actualización.',
+    stack: [
+      {
+        name: 'WordPress',
+        badge:
+          'https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white',
+      },
+    ],
+  },
+  {
     title: 'The Exchange App',
     description:
       'Aplicación web para consultar el valor de cambio entre mas de 200 divisas mediante el llamado a una API. Se pueden guardar las transacciones frecuentes como favoritas para un acceso mas rápido. Próxima mejora UX/UI.',

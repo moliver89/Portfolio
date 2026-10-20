@@ -25,6 +25,21 @@ export const projectsEng = [
     ],
   },
   {
+    title: 'Polytech Systems Web',
+    description:
+      'Corporate website built with WordPress and Avada, featuring contact forms, a project portfolio, and a blog. Technical SEO optimization and UX/UI improvements to enhance user experience and organic search visibility.',
+    link: 'https://polytechsystems.es',
+    image: '/Despues Home.png',
+    state: 'Finished. Constant updating.',
+    stack: [
+      {
+        name: 'WordPress',
+        badge:
+          'https://img.shields.io/badge/Wordpress-21759B?style=for-the-badge&logo=wordpress&logoColor=white',
+      },
+    ],
+  },
+  {
     title: 'The Exchange App',
     description: `Currency exchange app supporting over 200 currencies via an external API query. You can save your most frequent queries for a faster consultation. UX/UI improvement coming next.`,
     link: 'https://the-exchange-app.netlify.app/',
