@@ -6,11 +6,11 @@ import '../../styles/AboutMe.css';
 const AboutMe = () => {
   const { language } = useContext(LanguageContext);
   return (
-    <main className='aboutMePage' id='aboutMe'>
-      {language === 'Español' ? (
+    <main className="aboutMePage" id="aboutMe">
+      {language === "Español" ? (
         <>
           <h2>Sobre mi</h2>
-          <div className='about-text'>
+          <div className="about-text">
             <p>
               👋 Soy un desarrollador Web FullStack... Claro, ya te lo he
               explicado en el header de este Portfolio y en los "about me" de mi
@@ -101,6 +101,16 @@ const AboutMe = () => {
               finalmente trabajar de lo que tanto disfruto.
             </p>
             <p>
+              💼 En septiembre de 2025 llegó la oportunidad de dar ese paso e
+              incorporarme a Polytech Systems como Desarrollador de Software.
+              Desde entonces, combino el desarrollo de soluciones internas para
+              la gestión empresarial con el mantenimiento y la mejora de su
+              sitio web corporativo, trabajando también en SEO técnico y UX/UI.
+              Una experiencia que me permite seguir aprendiendo, enfrentar
+              nuevos desafíos y aplicar mis conocimientos en un entorno
+              profesional real.
+            </p>
+            <p>
               🙏 Espero no haberlos aburrido, y si llegaste hasta aqui creo que
               estás más cerca de entender todo lo que puedo aportarle a este
               mundillo, desde mi experiencia, pero sobre todo desde la pasión y
@@ -182,7 +192,7 @@ const AboutMe = () => {
       ) : (
         <>
           <h2>About me</h2>
-          <div className='about-text'>
+          <div className="about-text">
             <p>
               👋 I'm a FullStack Web Developer... Just kidding, I've already
               explain that to you on this Portfolio's header and in my LinkedIn,
@@ -265,6 +275,16 @@ const AboutMe = () => {
               few months, learn new programming languages and certify, and this
               way, after a long time, I'd be finally able to work in the sector
               I most enjoy.
+            </p>
+            <p>
+              💼 In September 2025, I got the opportunity to take that step and
+              join Polytech Systems as a Software Developer. Since then, I’ve
+              been combining the development of internal business management
+              solutions with the maintenance and improvement of the company’s
+              corporate website, while also working on technical SEO and UX/UI.
+              This experience allows me to keep learning, take on new
+              challenges, and apply my skills in a real-world professional
+              environment.
             </p>
             <p>
               🙏 I hope I didn't bore you and if you made it this far, I think
