@@ -41,10 +41,10 @@ export const projectsEng = [
   },
   {
     title: 'The Exchange App',
-    description: `Currency exchange app supporting over 200 currencies via an external API query. You can save your most frequent queries for a faster consultation. UX/UI improvement coming next.`,
+    description: `Currency exchange app supporting over 200 currencies via an external API query. You can save your most frequent queries for a faster consultation.`,
     link: 'https://the-exchange-app.netlify.app/',
     image: '/theexchangeapp-preview.png',
-    state: 'Under maintenance.',
+    state: 'Finished.',
     stack: [
       {
         name: 'Next.js',

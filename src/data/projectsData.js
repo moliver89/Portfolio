@@ -42,10 +42,10 @@ export const projects = [
   {
     title: 'The Exchange App',
     description:
-      'Aplicación web para consultar el valor de cambio entre mas de 200 divisas mediante el llamado a una API. Se pueden guardar las transacciones frecuentes como favoritas para un acceso mas rápido. Próxima mejora UX/UI.',
+      'Aplicación web para consultar el valor de cambio entre mas de 200 divisas mediante el llamado a una API. Se pueden guardar las transacciones frecuentes como favoritas para un acceso mas rápido.',
     link: 'https://the-exchange-app.netlify.app/',
     image: '/theexchangeapp-preview.png',
-    state: 'En mantenimiento.',
+    state: 'Finalizado.',
     stack: [
       {
         name: 'Next.js',
